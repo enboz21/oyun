@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\pla_hareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\pla_hareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|c:\\users\\enesb\\desktop\\github\\oyun\\olcak\\assets\\pla_hareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\pla_hareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\pla_hareket.cs",
               "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\pla_hareket.cs",
               "RelativeToolTip": "Assets\\pla_hareket.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T12:08:44.443Z",
               "EditorCaption": ""

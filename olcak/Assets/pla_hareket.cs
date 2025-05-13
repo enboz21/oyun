@@ -6,9 +6,12 @@ public class pla_hareket : MonoBehaviour
 {
     private Rigidbody2D fizik;
     private bool yüz;
+    private bool deyiyormu = true;
     [SerializeField] 
     private float hız = 5f;
-    
+    [SerializeField]
+    private float zıplama = 5f;
+
     private void Start()
     {
         yüz = true;
@@ -17,8 +20,14 @@ public class pla_hareket : MonoBehaviour
 
     void Update()
     {
-        
-    }
+
+        if (deyiyormu&&(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
+        {
+            deyiyormu = false;
+            fizik.AddForce(new Vector2(0, zıplama));
+        }
+
+    }  
 
     void FixedUpdate()
     {
@@ -45,6 +54,13 @@ public class pla_hareket : MonoBehaviour
             Vector3 scale = transform.localScale;
             scale.x *= -1;
             transform.localScale = scale;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("zemin"))
+        {
+            deyiyormu = true;
         }
     }
 }
