@@ -61,7 +61,9 @@
     <Analyzer Include="C:\Users\enesb\Desktop\oyun\6000.0.47f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ara.cs" />
     <Compile Include="Assets\pla_hareket.cs" />
+    <Compile Include="Assets\düşman.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
