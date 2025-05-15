@@ -1257,6 +1257,10 @@
       <HintPath>C:\Users\enesb\Desktop\oyun\6000.0.47f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
@@ -1266,10 +1270,6 @@
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
       <Project>{FDDF8CF6-0CB6-1A30-80BF-B98855541539}</Project>
       <Name>Unity.InputSystem.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{0F36FA56-8565-EA0D-8374-A63139736C3E}</Project>
-      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
