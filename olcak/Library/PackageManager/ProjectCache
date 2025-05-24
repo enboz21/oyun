@@ -23,8 +23,8 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638827740377623582
-      m_Hash: 1724004672
+        ticks: 638835348130000000
+      m_Hash: 3455946988
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/enesb/Desktop/GitHub/oyun/olcak/Packages
@@ -1427,9 +1427,11 @@ m_ResolvedPackages:
     - 1.9.4
     - 1.9.5
     - 1.9.6
+    - 1.9.7
     compatible:
     - 1.9.6
-    recommended: 1.9.6
+    - 1.9.7
+    recommended: 1.9.7
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -3788,7 +3790,7 @@ m_ResolvedPackages:
 - packageId: com.merry-yellow.code-assist@file:C:\Users\enesb\Desktop\GitHub\oyun\olcak\Packages\com.merry-yellow.code-assist
   testable: 1
   isDirectDependency: 1
-  version: 1.4.13
+  version: 1.4.15
   source: 3
   resolvedPath: C:\Users\enesb\Desktop\GitHub\oyun\olcak\Packages\com.merry-yellow.code-assist
   assetPath: Packages/com.merry-yellow.code-assist

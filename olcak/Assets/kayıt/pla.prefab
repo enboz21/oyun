@@ -177,10 +177,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1483215295410098927}
+  - component: {fileID: 3570305018340616274}
   - component: {fileID: 5427688059854834536}
   - component: {fileID: 4102538583754852291}
   - component: {fileID: 4730749175246516632}
-  - component: {fileID: 3570305018340616274}
   - component: {fileID: 657949816588520184}
   m_Layer: 0
   m_Name: pla
@@ -206,6 +206,21 @@ Transform:
   - {fileID: 6882091369519678881}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3570305018340616274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5133138816582663828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f580e87153cb3a344b522218e489b622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "h\u0131z": 2
+  "art\u0131y\xFCkseklik": 0.0001
+  "z\u0131plama": 250
 --- !u!212 &5427688059854834536
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -334,20 +349,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.13493842, y: 0.16670638}
   m_EdgeRadius: 0
---- !u!114 &3570305018340616274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5133138816582663828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f580e87153cb3a344b522218e489b622, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "h\u0131z": 2
-  "z\u0131plama": 250
 --- !u!95 &657949816588520184
 Animator:
   serializedVersion: 7

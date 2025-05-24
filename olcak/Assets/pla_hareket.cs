@@ -6,13 +6,9 @@ public class pla_hareket : ara
     
     private bool deyiyormu = true;
     
-    [SerializeField]
-    private float zıplama = 5f;
+    
     private bool dey;
     private float arazaman = 0;
-    /*[SerializeField]
-    private Collider2D atak;*/
-    //private bool saldır=false;
 
 
     private void Start()
@@ -45,29 +41,8 @@ public class pla_hareket : ara
 
 
     }
-    void hareket(float yatay)
-    {
-
-        fizik.linearVelocity = new Vector2(hız * yatay, fizik.linearVelocity.y);
-        ani.SetFloat("hız", math.abs(yatay));
-    }
-    void don(float yatay)
-    {
-        if (yatay > 0 && !yüz)
-        {
-            yüz = true;
-            Vector3 scale = transform.localScale;
-            scale.x *= -1;
-            transform.localScale = scale;
-        }
-        else if (yatay < 0 && yüz)
-        {
-            yüz = false;
-            Vector3 scale = transform.localScale;
-            scale.x *= -1;
-            transform.localScale = scale;
-        }
-    }
+    
+   
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("zemin"))
