@@ -443,6 +443,7 @@
 "Assets/ara.cs"
 "Assets/düşman.cs"
 "Assets/pla_hareket.cs"
+"Assets/vurma.cs"
 -langversion:9.0
 /deterministic
 /optimize+

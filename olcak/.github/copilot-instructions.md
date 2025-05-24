@@ -2,7 +2,7 @@
 - Project name: olcak
 - Unity version: Unity 6000.0.47f1
 - Active game object:
-  - Name: hasar
-  - Tag: Untagged
+  - Name: iskelet asker orak
+  - Tag: düşman
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

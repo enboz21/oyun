@@ -4,6 +4,10 @@ using UnityEngine;
 public class ara : MonoBehaviour
 {
     [SerializeField]
+    internal int can = 30;
+    [SerializeField]
+    internal int hasarmik=10;
+    [SerializeField]
     internal float hýz = 5f;
     internal Rigidbody2D fizik;
     internal bool yüz;

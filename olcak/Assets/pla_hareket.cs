@@ -3,10 +3,7 @@ using UnityEngine;
 
 public class pla_hareket : ara
 {
-    
     private bool deyiyormu = true;
-    
-    
     private bool dey;
     private float arazaman = 0;
 
@@ -58,4 +55,5 @@ public class pla_hareket : ara
             ani.SetTrigger("sald");
         }
     }
+    internal int gethasarmik() {         return hasarmik; }
 }
