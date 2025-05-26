@@ -6,6 +6,7 @@ TagManager:
   tags:
   - zemin
   - "d\xFC\u015Fman"
+  - vurdu
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - zemin
   - Water
   - UI
-  - 
+  - player
   - 
   - 
   - 

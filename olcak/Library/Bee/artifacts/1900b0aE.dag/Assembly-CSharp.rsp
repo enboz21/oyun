@@ -441,8 +441,10 @@
 -analyzer:"C:/Users/enesb/Desktop/oyun/6000.0.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Users/enesb/Desktop/oyun/6000.0.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/ara.cs"
+"Assets/dhasr.cs"
 "Assets/düşman.cs"
 "Assets/pla_hareket.cs"
+"Assets/takip.cs"
 "Assets/vurma.cs"
 -langversion:9.0
 /deterministic

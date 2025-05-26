@@ -5,9 +5,20 @@ public class düşman : ara
     private float fark;
     private bool yön = true;
     private float yatay = -1f;
-    private bool dur = false;
-    private float süre= 0f;
-
+    [SerializeField]
+    private Transform kon;
+    [SerializeField]
+    private float çapyar;
+    [SerializeField]
+    private LayerMask katman;
+    private bool yeter;
+    [SerializeField]
+    private float durgun = 2f;
+    private float durgunsü;
+    [SerializeField]
+    private Transform var;
+    [SerializeField]
+    private LayerMask kat;
     void Start()
     {
         yüz = true;
@@ -18,66 +29,108 @@ public class düşman : ara
 
     void Update()
     {
+        durgunsü += Time.deltaTime;
 
     }
     void FixedUpdate()
     {
+        yeter = yeterli();
         if (ani.GetBool("son"))
         {
             Destroy(gameObject);
         }
+        saldır();
 
-        if (!dur && !ani.GetBool("bittihas"))
+        if (!ani.GetBool("bittihas"))
         {
-            if (fark > 2f && yön)
+            if (yeter) // Engel tespit edildiğinde
             {
-                dur = true;
-                yön = false;
-                yatay = 1f;
-                fark = 0f;
+                // Hareket etmeyi durdur
+                ani.SetFloat("hız", 0f);
+                fark += Time.deltaTime;
+
+                // 2 saniye bekledikten sonra yön değiştir
+                if (fark >= 2f)
+                {
+                    yön = !yön; // Yönü tersine çevir
+                    yatay = yön ? -1f : 1f;
+                    fark = 0f;
+                    yeter = false; // Tekrar harekete geç
+                }
             }
-            else if (fark > 2f && !yön)
+            else
             {
-                dur = true;
-                yön = true;
-                yatay = -1f;
-                fark = 0f;
+                // Normal hareket
+                hareket(yatay);
             }
-            hareket(yatay);
         }
-        else
-        {
-            if (fark > 2f)
-            {
-                fark = 0f;
-                dur = false;
-            }
-            ani.SetFloat("hız", 0f);
-        }
-        fark += Time.deltaTime;
-        süre+=Time.deltaTime;
+
+        
         don(yatay);
     }
     internal void hasar(int has)
     {
-        ani.SetBool("bittihas", true);
-        can -= has;
-        if (can <= 0)
-        {
-            ani.SetTrigger("öl");
+        if (!ani.GetBool("bittihas")) {
+            ani.SetBool("bittihas", true);
+            can -= has;
+            if (can <= 0)
+            {
+                ani.SetTrigger("öl");
+            }
+            else
+            {
+                ani.SetTrigger("has");
+            }
         }
-        else
-        {
-            ani.SetTrigger("has");
-        }
-        süre = 0f;
     }
     private void son()
     {
         ani.SetBool("son", true);
     }
+    private void saldbit()
+    {
+        ani.SetBool("sald", false);
+    }
     private void hasarbit()
     {
         ani.SetBool("bittihas", false);
     }
+    private bool yeterli()
+    {
+
+        Collider2D[] colli = Physics2D.OverlapCapsuleAll(kon.position, new Vector2(çapyar, çapyar), 0f, 0f, katman);
+        for(int i = 0; i < colli.Length; i++)
+        {
+            if (colli[i].gameObject!=gameObject)
+            {
+                return false;
+            }
+        }
+        return true;
     }
+    private void saldır()
+    {
+        bool a = aa();
+        if ((a && !ani.GetBool("sald")) && durgunsü>=durgun)
+        {   durgunsü = 0f;
+            ani.SetTrigger("saldır");
+            ani.SetBool("sald", true);
+        }
+    }
+    internal int gethasarmik() { return hasarmik; }
+
+    private bool aa()
+    {
+
+        Collider2D[] colli = Physics2D.OverlapCapsuleAll(var.position, new Vector2(çapyar, çapyar), 0f, 0f, kat);
+        for (int i = 0; i < colli.Length; i++)
+        {
+            if (colli[i].gameObject != gameObject)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+}

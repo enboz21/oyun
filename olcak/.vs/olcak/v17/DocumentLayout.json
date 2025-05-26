@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\d\u00FC\u015Fman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|c:\\users\\enesb\\desktop\\github\\oyun\\olcak\\assets\\vurma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\vurma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\assets\\takip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\takip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\assets\\pla_hareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|c:\\users\\enesb\\desktop\\github\\oyun\\olcak\\assets\\pla_hareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\pla_hareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\assets\\ara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\ara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\assets\\vurma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\vurma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\assets\\dhasr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\dhasr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,28 +58,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "d\u00FC\u015Fman.cs",
+              "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\d\u00FC\u015Fman.cs",
+              "RelativeDocumentMoniker": "Assets\\d\u00FC\u015Fman.cs",
+              "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\d\u00FC\u015Fman.cs",
+              "RelativeToolTip": "Assets\\d\u00FC\u015Fman.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAADwv3gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:37:04.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dhasr.cs",
+              "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\dhasr.cs",
+              "RelativeDocumentMoniker": "Assets\\dhasr.cs",
+              "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\dhasr.cs",
+              "RelativeToolTip": "Assets\\dhasr.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:36:56.047Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "pla_hareket.cs",
               "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\pla_hareket.cs",
               "RelativeDocumentMoniker": "Assets\\pla_hareket.cs",
               "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\pla_hareket.cs",
               "RelativeToolTip": "Assets\\pla_hareket.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwDkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwEIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T20:15:09.904Z"
+              "WhenOpened": "2025-05-26T15:37:02.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "vurma.cs",
               "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\vurma.cs",
               "RelativeDocumentMoniker": "Assets\\vurma.cs",
               "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\vurma.cs",
               "RelativeToolTip": "Assets\\vurma.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBUAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T20:15:02.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:37:01.044Z"
             },
             {
               "$type": "Document",
@@ -81,21 +114,21 @@
               "RelativeDocumentMoniker": "Assets\\ara.cs",
               "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\ara.cs",
               "RelativeToolTip": "Assets\\ara.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T20:14:58.458Z"
+              "WhenOpened": "2025-05-26T15:36:57.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "d\u00FC\u015Fman.cs",
-              "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\d\u00FC\u015Fman.cs",
-              "RelativeDocumentMoniker": "Assets\\d\u00FC\u015Fman.cs",
-              "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\d\u00FC\u015Fman.cs",
-              "RelativeToolTip": "Assets\\d\u00FC\u015Fman.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "takip.cs",
+              "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\takip.cs",
+              "RelativeDocumentMoniker": "Assets\\takip.cs",
+              "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\takip.cs",
+              "RelativeToolTip": "Assets\\takip.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T20:14:34.955Z",
+              "WhenOpened": "2025-05-26T15:36:52.246Z",
               "EditorCaption": ""
             }
           ]

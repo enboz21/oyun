@@ -4,7 +4,7 @@ using UnityEngine;
 public class pla_hareket : ara
 {
     private bool deyiyormu = true;
-    private bool dey;
+    
     private float arazaman = 0;
 
 
@@ -18,7 +18,7 @@ public class pla_hareket : ara
     void Update()
     {
 
-        if (deyiyormu && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
+        if (ani.GetBool("bittihas") && deyiyormu && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
             ani.SetBool("zemin", false);
             deyiyormu = false;
@@ -31,10 +31,13 @@ public class pla_hareket : ara
     {
         saldırı();
         ani.SetFloat("yek", fizik.linearVelocity.y);
-        dey = ani.GetBool("deyiyormu");
+        
         float yatay = Input.GetAxis("Horizontal");
-        hareket(yatay);
-        don(yatay);
+        if (ani.GetBool("bittihas"))
+        {
+            hareket(yatay);
+            don(yatay);
+        }
 
 
     }
@@ -56,4 +59,31 @@ public class pla_hareket : ara
         }
     }
     internal int gethasarmik() {         return hasarmik; }
+    internal void hasar(int has)
+    {
+        Debug.Log("Hasar alındı: " + has);
+        if (ani.GetBool("bittihas"))
+        {
+            Debug.Log(can + " can kaldı, " + has + " hasar alındı.");
+            ani.SetBool("bittihas", false);
+            can -= has;
+            if (can <= 0)
+            {
+                ani.SetTrigger("ölüm");
+            }
+            else
+            {
+                ani.SetTrigger("tekhas");
+            }
+        }
+    }
+    private void hasarbit()
+    {
+        ani.SetBool("bittihas", true);
+    }
+    private void ölüm()
+    {
+        ani.SetBool("ölümson", true);
+        Destroy(gameObject, 1f);
+    }
 }

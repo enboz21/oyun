@@ -65,6 +65,8 @@
     <Compile Include="Assets\ara.cs" />
     <Compile Include="Assets\pla_hareket.cs" />
     <Compile Include="Assets\düşman.cs" />
+    <Compile Include="Assets\dhasr.cs" />
+    <Compile Include="Assets\takip.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
