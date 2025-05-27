@@ -4,8 +4,8 @@ public class mm : MonoBehaviour
 {
     public void ba()
     {
-        int i = SceneManager.GetActiveScene().buildIndex+1;
-        SceneManager.LoadScene(i);
+        
+        SceneManager.LoadScene(2);
     }
     public void çý()
     {
