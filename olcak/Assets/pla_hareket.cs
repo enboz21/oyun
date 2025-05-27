@@ -1,22 +1,27 @@
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class pla_hareket : ara
 {
     private bool deyiyormu = true;
     
     private float arazaman = 0;
-
-
+    [SerializeField]
+    private Image ca;
+    private float maxcan;
     private void Start()
     {
         yüz = true;
         fizik = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+        maxcan= can;
     }
 
     void Update()
     {
+        cannn();
 
         if (ani.GetBool("bittihas") && deyiyormu && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
@@ -85,5 +90,14 @@ public class pla_hareket : ara
     {
         ani.SetBool("ölümson", true);
         Destroy(gameObject, 1f);
+        
+        SceneManager.LoadScene(0);
+    
+}
+
+    private void cannn()
+    {
+        ca.fillAmount =  can/ maxcan;
     }
+
 }

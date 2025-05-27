@@ -20,7 +20,6 @@ public class dhasr : MonoBehaviour
             pla_hareket parentScript = collision.gameObject.GetComponent<pla_hareket>();
             düþman düþmanScript = transform.parent.GetComponent<düþman>();
             parentScript.hasar(düþmanScript.gethasarmik());
-            Debug.Log("Player hasar aldý: " + düþmanScript.gethasarmik() + " hasar.");
         }
     }
 }

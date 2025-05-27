@@ -6,11 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/oyun sonu.unity
+    guid: 772435dde36a0a047b66b52e2fd7969d
+  - enabled: 1
     path: "Assets/Scenes/men\xFC.unity"
     guid: e7fc853dac2ad974d86ba40558a60565
   - enabled: 1
     path: Assets/Scenes/level1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/level2.unity
+    guid: 9ac87df50ecf41144b81fc6ac49dda45
+  - enabled: 1
+    path: Assets/Scenes/level3.unity
+    guid: d7d7a3136e438ea45ab2b03f3094eb62
+  - enabled: 1
+    path: Assets/Scenes/bitirdin.unity
+    guid: ab3f295bd4f797b4d85ed4f0ebc0e88c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   can: 30
-  hasarmik: 6
+  hasarmik: 12
   "h\u0131z": 0.5
   "art\u0131y\xFCkseklik": 0.0009
   "z\u0131plama": 1

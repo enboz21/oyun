@@ -19,6 +19,7 @@ public class düşman : ara
     private Transform var;
     [SerializeField]
     private LayerMask kat;
+    private bool öldü= false;
     void Start()
     {
         yüz = true;
@@ -34,6 +35,8 @@ public class düşman : ara
     }
     void FixedUpdate()
     {
+        if (öldü) return;
+
         yeter = yeterli();
         if (ani.GetBool("son"))
         {
@@ -87,7 +90,8 @@ public class düşman : ara
     {
 
         ani.SetBool("son", true);
-        Destroy(gameObject, 1f);
+        öldü = true;
+        Destroy(gameObject);
     }
     private void saldbit()
     {
