@@ -85,7 +85,9 @@ public class düşman : ara
     }
     private void son()
     {
+
         ani.SetBool("son", true);
+        Destroy(gameObject, 1f);
     }
     private void saldbit()
     {
