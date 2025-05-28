@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|c:\\users\\enesb\\desktop\\github\\oyun\\olcak\\assets\\bitti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\bitti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|c:\\users\\enesb\\desktop\\github\\oyun\\olcak\\assets\\mm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\mm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|c:\\users\\enesb\\desktop\\github\\oyun\\olcak\\assets\\sonra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E08378-64D7-3CCA-AD34-FA5E58672231}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\sonra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mm.cs",
+              "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\mm.cs",
+              "RelativeDocumentMoniker": "Assets\\mm.cs",
+              "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\mm.cs",
+              "RelativeToolTip": "Assets\\mm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T22:55:02.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bitti.cs",
+              "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\bitti.cs",
+              "RelativeDocumentMoniker": "Assets\\bitti.cs",
+              "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\bitti.cs",
+              "RelativeToolTip": "Assets\\bitti.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T22:53:05.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sonra.cs",
+              "DocumentMoniker": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\sonra.cs",
+              "RelativeDocumentMoniker": "Assets\\sonra.cs",
+              "ToolTip": "C:\\Users\\enesb\\Desktop\\GitHub\\oyun\\olcak\\Assets\\sonra.cs",
+              "RelativeToolTip": "Assets\\sonra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T22:52:53.203Z",
+              "EditorCaption": ""
             }
           ]
         }
