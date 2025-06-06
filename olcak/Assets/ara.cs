@@ -6,16 +6,18 @@ public class ara : MonoBehaviour
     [SerializeField]
     internal int can = 30;
     [SerializeField]
-    internal int hasarmik=10;
+    internal int hasarmik = 10;
     [SerializeField]
     internal float hýz = 5f;
     internal Rigidbody2D fizik;
     internal bool yüz;
     internal Animator ani;
     [SerializeField]
-    internal float artýyükseklik = 0.0009f;
+    internal float artýyükseklik = 0.0001f;
     [SerializeField]
     internal float zýplama = 5f;
+
+
 
 
     internal void hareket(float yatay)
@@ -45,5 +47,15 @@ public class ara : MonoBehaviour
             scale.x *= -1;
             transform.localScale = scale;
         }
+    }
+
+    internal int kaçal()
+    {
+        return pla_hareket.GetKaçtane();
+    }
+
+    internal void kaçek()
+    {
+        pla_hareket.SetKaçtane();
     }
 }

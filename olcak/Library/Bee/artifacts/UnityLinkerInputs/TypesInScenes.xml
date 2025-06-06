@@ -10,7 +10,6 @@
 		<type fullname="vurma" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.2D.Animation.Runtime">
-		<type fullname="UnityEngine.U2D.Animation.BufferManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManagerUpdater" preserve="nothing"/>
 	</assembly>
@@ -148,9 +147,6 @@
 		<type fullname="UnityEngine.Tilemaps.TilemapCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Tilemaps.TilemapRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEngine.TilemapModule">
-		<type fullname="UnityEngine.Tilemaps.Tile" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>

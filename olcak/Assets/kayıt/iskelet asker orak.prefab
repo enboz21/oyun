@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3838588991434775205}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.268, y: -0.15, z: 0}
+  m_LocalPosition: {x: 2.09, y: -1.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 3994508816255383074}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.121, y: -0.018, z: 0}
+  m_LocalPosition: {x: 0.87, y: -0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -89,7 +89,7 @@ Transform:
   m_GameObject: {fileID: 5545763348894137017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.014, y: -0.015, z: 0}
+  m_LocalPosition: {x: 0.233, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -141,7 +141,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.07091371, y: 0.0058244467}
+  m_Offset: {x: 0.125738, y: -0.007881165}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -151,7 +151,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.041238293, y: 0.09370804}
+  m_Size: {x: 0.15088685, y: 0.69128895}
   m_EdgeRadius: 0
 --- !u!1 &7135810287522859103
 GameObject:
@@ -206,8 +206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   can: 30
   hasarmik: 12
-  "h\u0131z": 0.5
-  "art\u0131y\xFCkseklik": 0.0009
+  "h\u0131z": 2
+  "art\u0131y\xFCkseklik": 0.0001
   "z\u0131plama": 1
   kon: {fileID: 7281359124103874787}
   "\xE7apyar": 0
@@ -335,17 +335,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.027607195, y: 0.0046737865}
+  m_Offset: {x: -0.1709547, y: 0.010331869}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.17}
+    oldSize: {x: 1.125, y: 1.0625}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.104785606, y: 0.15065242}
+  m_Size: {x: 0.68572044, y: 0.961699}
   m_EdgeRadius: 0
 --- !u!95 &1543949165323630649
 Animator:

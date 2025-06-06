@@ -7,7 +7,7 @@ public class sonsu : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             pla_hareket parentScript = collision.gameObject.GetComponent<pla_hareket>();
-            parentScript.hasar(1000000000);
+            parentScript.hasar(1000000);
         }
     }
 }

@@ -552,6 +552,9 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/bitirdin.unity",
+                "Assets/Scenes/level1.unity",
+                "Assets/Scenes/level2.unity",
+                "Assets/Scenes/level3.unity",
                 "Assets/Scenes/menü.unity",
                 "Assets/Scenes/oyun sonu.unity"
             ]
@@ -1277,13 +1280,6 @@
             ]
         },
         {
-            "managedAssemblyName": "UnityEngine.TilemapModule.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Tilemaps.Tile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Tilemap",
             "fullManagedTypeName": "UnityEngine.Tilemaps.Tilemap",
@@ -1329,13 +1325,6 @@
                 "Assets/Scenes/menü.unity",
                 "Assets/Scenes/oyun sonu.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",

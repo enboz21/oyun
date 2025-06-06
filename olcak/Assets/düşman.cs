@@ -40,6 +40,7 @@ public class düşman : ara
         yeter = yeterli();
         if (ani.GetBool("son"))
         {
+            kaçek();
             Destroy(gameObject);
         }
         saldır();
@@ -89,6 +90,7 @@ public class düşman : ara
     private void son()
     {
 
+        kaçek();
         ani.SetBool("son", true);
         öldü = true;
         Destroy(gameObject);
